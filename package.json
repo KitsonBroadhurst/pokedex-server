@@ -1,7 +1,7 @@
 {
-  "name": "catstronauts-server-complete",
+  "name": "pokedex-server",
   "version": "1.0.0",
-  "description": "back-end demo app for Apollo's lift-off course",
+  "description": "back-end Apollo app for Pokedex",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index"
