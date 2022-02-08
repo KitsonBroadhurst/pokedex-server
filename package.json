@@ -4,7 +4,8 @@
   "description": "back-end Apollo app for Pokedex",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index"
+    "start": "node src/index",
+    "dev": "nodemon src/index"
   },
   "dependencies": {
     "apollo-datasource-rest": "^3.5.1",
