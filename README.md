@@ -16,6 +16,6 @@ There are 2 main repos reqired:
 To get started:
 
 1. Run `npm install`.
-2. Run `npm dev`. (`npm start` is used in production)
+2. Run `npm run dev`. (`npm start` is used in production)
 
 This will start the GraphQL API server.

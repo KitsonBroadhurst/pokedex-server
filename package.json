@@ -8,9 +8,22 @@
     "dev": "nodemon src/index"
   },
   "dependencies": {
+    "apollo-datasource-mongodb": "^0.5.2",
     "apollo-datasource-rest": "^3.5.1",
     "apollo-server": "^3.6.2",
-    "graphql": "^16.3.0"
+    "apollo-server-core": "^3.6.3",
+    "apollo-server-express": "^3.6.3",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "graphql": "^16.3.0",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",

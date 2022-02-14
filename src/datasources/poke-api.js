@@ -17,6 +17,17 @@ class PokeAPI extends RESTDataSource {
     return this.get(url)
   }
 
+  async getPokemonById(id) {
+    const response = await this.get(`/pokemon/${id}`)
+    return response
+  }
+
+  getFavourites(ids = []) {
+    return Promise.all(
+      ids.map(id => this.getPokemonById(id))
+    )
+  }
+
   async getMoveByName(moveName) {
     const response = await this.get(`/move/${moveName}`)
     const englishDescription = response.flavor_text_entries.filter(entry => entry.language.name === "en")
